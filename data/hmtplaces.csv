@@ -92,7 +92,7 @@ urn:cite:hmt:place.place91,Hyde,a town on Mt. Tmolus in Lydia (possibly the late
 urn:cite:hmt:place.place92,Simois River,flows into the Scamander River,pleiades.stoa.org/places/550883,proposed,
 urn:cite:hmt:place.place93,Scamander River,"river rising from Mt. Ida,sometimes referred to as Xanthus",pleiades.stoa.org/places/550871,proposed,
 urn:cite:hmt:place.place94,Acheron,river of the nether world,,proposed,
-urn:cite:hmt:place.place95,Locris,"Opuntia, region in central Greece",pleiades.stoa.org/places/540918,proposed,
+urn:cite:hmt:place.place95,Locris,"Opuntia, region in central Greece",pleiades.stoa.org/places/540918,rejected,urn:cite:hmt:place.place269 or urn:cite:hmt:place.place270
 urn:cite:hmt:place.place96,Achaea,region of Greece in the NW part of the Peloponese,pleiades.stoa.org/places/570028,proposed,
 urn:cite:hmt:place.place97,Emathoes,river near Pylos,,proposed,
 urn:cite:hmt:place.place98,Cyprus,Greek Island,pleiades.stoa.org/places/981516,proposed,
@@ -266,3 +266,5 @@ urn:cite:hmt:place.place265,Thymbra,"Town near Troy; place of sanctuary to Apoll
 urn:cite:hmt:place.place266,Pidaios,"town associated with the Leleges, alternatively spelled Pedasus",,proposed,
 urn:cite:hmt:place.place267,Teuchios,town in Euboea,,proposed,
 urn:cite:hmt:place.place268,Ios,island in the Cyclades,,proposed,
+urn:cite:hmt:place.place269,Locris,region of Greece north of Boeotia divided into three distinct regions,,proposed,
+urn:cite:hmt:place.place270,Opuntia,"a region of Locris, home of the Epicnemidii Locri or the Locri Opuntii",,proposed,
