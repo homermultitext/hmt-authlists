@@ -73,7 +73,7 @@ urn:cite:hmt:pers.pers71,Heracles,"aka Hercules, son of Zeus, completed twelve l
 urn:cite:hmt:pers.pers72,Auge,mother of Telephus,proposed,
 urn:cite:hmt:pers.pers73,Aleus,father of Auge,proposed,
 urn:cite:hmt:pers.pers74,Calchas,"son of Thestor, seer of the Greeks at Troy",proposed,
-urn:cite:hmt:pers.pers75,Herodianus,rejected,rejected,
+urn:cite:hmt:pers.pers75,Herodianus,REJECTED,rejected,
 urn:cite:hmt:pers.pers76,Nicanor,Stigmatias,proposed,
 urn:cite:hmt:pers.pers77,Porphyry,"of Tyre, philosopher",proposed,
 urn:cite:hmt:pers.pers78,Licymnius,"Father of Argeius and Oeonus, brother of Alcm?na, slain by Tlepolemus, friend of one of Heracles' sons",proposed,
@@ -363,8 +363,8 @@ urn:cite:hmt:pers.pers362,Schedius,Son of Perimedes,proposed,
 urn:cite:hmt:pers.pers363,Schedius,Son of Iphitus,proposed,
 urn:cite:hmt:pers.pers364,Perimedes,Father of Schedius,proposed,
 urn:cite:hmt:pers.pers365,Iphitus,Father of Schedius,proposed,
-urn:cite:hmt:pers.pers366,Eurymedon,Charioteer of Agamemnon,rejected,urn:cite:hmt:pers.pers589
-urn:cite:hmt:pers.pers366,Eurymedon,Servant of Nestor,rejected,urn:cite:hmt:pers.pers590
+urn:cite:hmt:pers.pers366,Eurymedon,"REJECTED, Charioteer of Agamemnon",rejected,urn:cite:hmt:pers.pers589
+urn:cite:hmt:pers.pers366,Eurymedon,"REJECTED, Servant of Nestor",rejected,urn:cite:hmt:pers.pers590
 urn:cite:hmt:pers.pers367,Ornytion,"Ornytus; Son of Sisyphus",proposed,
 urn:cite:hmt:pers.pers368,Naubolos,Son of Ornytus; King of Tanagra,proposed,
 urn:cite:hmt:pers.pers369,Phocos,Son of Aiakos,proposed,
@@ -457,8 +457,8 @@ urn:cite:hmt:pers.pers455,Thamyris,"Thracian bard, son of Philammon",proposed,
 urn:cite:hmt:pers.pers456,Arsiute,Nymph mother of Thamyris,proposed,
 urn:cite:hmt:pers.pers457,Demodocus,singer of tales in the Odyssey,proposed,
 urn:cite:hmt:pers.pers458,Arcas,"son of Zeus, eponym of Arcadia",proposed,
-urn:cite:hmt:pers.pers459,Ancaeus,no longer used,rejected,urn:cite:hmt:pers.pers413
-urn:cite:hmt:pers.pers460,Amphidamas,no longer used,rejected,urn:cite:hmt:pers.pers412
+urn:cite:hmt:pers.pers459,Ancaeus,REJECTED no longer used,rejected,urn:cite:hmt:pers.pers413
+urn:cite:hmt:pers.pers460,Amphidamas,REJECTED no longer used,rejected,urn:cite:hmt:pers.pers412
 urn:cite:hmt:pers.pers461,Maia,"Mother of Hermes, daughter of Atlas",proposed,
 urn:cite:hmt:pers.pers462,Atlas,Cosmic strongman,proposed,
 urn:cite:hmt:pers.pers463,Glaucus,Trojan ally,proposed,
@@ -534,7 +534,7 @@ urn:cite:hmt:pers.pers532,Clysonymus,killed by Patroclus over a dice game,propos
 urn:cite:hmt:pers.pers533,Eratosthenes,"3rd to 2nd century BCE Greek mathematician, geographer, poet, astronomer, music theorist, and chief librarian at Alexandria",proposed,
 urn:cite:hmt:pers.pers534,Hermapias,"Greek grammarian not otherwise known outside the scholia but seems to comment on  grammar and accents",proposed,
 urn:cite:hmt:pers.pers535,Hecuba,wife of Priam and queen of Troy,proposed,
-urn:cite:hmt:pers.pers536,Dionysius Sidonius,an Aristarchean scholar familiar with the methods and scholarship Aristarchus,rejected,urn:cite:hmt:pers.pers323
+urn:cite:hmt:pers.pers536,Dionysius Sidonius,REJECTED an Aristarchean scholar familiar with the methods and scholarship Aristarchus,rejected,urn:cite:hmt:pers.pers323
 urn:cite:hmt:pers.pers537,Sophron,5th Century BCE writer from Syracuse,proposed,
 urn:cite:hmt:pers.pers538,Amphidamas,"of Opus, father of Clysonymus, who was killed by Patroclus",proposed,
 urn:cite:hmt:pers.pers539,Strymon,"Father of Rhesus, river god, king of Thrace",proposed,
