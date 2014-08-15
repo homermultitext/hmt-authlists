@@ -25,7 +25,7 @@ urn:cite:hmt:place.place23,Libya,in Africa,pleiades.stoa.org/places/716588,propo
 urn:cite:hmt:place.place24,Arabia,the Arabian peninsula,pleiades.stoa.org/places/29475,proposed,
 urn:cite:hmt:place.place25,Egypt,in Africa,pleiades.stoa.org/places/766,proposed,
 urn:cite:hmt:place.place26,Rhodes,island off the SW coast of Turkey,pleiades.stoa.org/places/590031,proposed,
-urn:cite:hmt:place.place27,Lacedaemonia,region around Sparta in the Peloponnese,pleiades.stoa.org/places/570406,proposed,
+urn:cite:hmt:place.place27,Lacedaemonia,"also called Laconia, region around Sparta in the Peloponnese",pleiades.stoa.org/places/570406,proposed,
 urn:cite:hmt:place.place28,Massalia,Greek colony in Gaul,pleiades.stoa.org/places/148127,proposed,
 urn:cite:hmt:place.place29,Aulis,town in Boeotia,pleiades.stoa.org/places/579889,proposed,
 urn:cite:hmt:place.place30,Boeotia,region containing the Greek Thebes,pleiades.stoa.org/places/540689,proposed,
@@ -50,7 +50,7 @@ urn:cite:hmt:place.place48,Lindos,on Rhodes,pleiades.stoa.org/places/589913,prop
 urn:cite:hmt:place.place49,Thebes,in Boetia,pleiades.stoa.org/places/541138,proposed,
 urn:cite:hmt:place.place50,Phlius,city in the northwestern Argolid in the Peloponnese,pleiades.stoa.org/places/573109,proposed,
 urn:cite:hmt:place.place51,Thebes,"in the Troad, Cilician Thebes",pleiades.stoa.org/places/550920,proposed,
-urn:cite:hmt:place.place53,Laconia,another name for Lacedaemonia,pleiades.stoa.org/places/570406,proposed,
+urn:cite:hmt:place.place53,Laconia,DO NOT USE,pleiades.stoa.org/places/570406,rejected,urn:cite:hmt:place.place27
 urn:cite:hmt:place.place54,Colophon,city in Lydia,pleiades.stoa.org/places/599577,proposed,
 urn:cite:hmt:place.place55,Cilicia,region in or near the Troad,pleiades.stoa.org/places/991403,proposed,
 urn:cite:hmt:place.place56,Cape Maleas,peninsula in the Peloponnese,pleiades.stoa.org/places/570455,proposed,
