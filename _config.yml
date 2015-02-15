@@ -1,0 +1,36 @@
+# Dependencies
+kramdown:
+  input: GFM
+#markdown: redcarpet
+
+highlighter: pygments
+
+#:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            HMT authority lists
+tagline: 'URNs for named entities'
+description:      'Authority lists for HMT project URNs for named entities'
+paginate_path: "/reviews/page:num"
+baseurl: '/hmt-authlists/'
+
+author:
+  name:           'Neel Smith'
+
+paginate:         5
+
+
+# Links:
+links:
+  - title: HMT on github
+    url: http://homermultitext.github.io/
+    external: true
+  - title: Github repository
+    url: https://github.com/homermultitext/hmt-authlists
+    external: true
+     
+     
+
