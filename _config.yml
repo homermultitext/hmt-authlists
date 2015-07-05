@@ -1,8 +1,8 @@
 # Dependencies
-kramdown:
-  input: GFM
-#markdown: redcarpet
 
+markdown: redcarpet
+redcarpet:
+ extensions: ["fenced_code_blocks", "autolink", "tables"]
 highlighter: pygments
 
 #:         true
