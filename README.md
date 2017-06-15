@@ -10,8 +10,7 @@ For each collection, a file in the [data](data) directory has the contents in a 
 
 You can use the included scala script to find the highest numbered identifier used in each collection.  Requires [scala](http://www.scala-lang.org/) and [sbt](http://www.scala-sbt.org/).  (If you're using the 2017 HMT project editor's VM, these are already installed.)
 
-
-Start by opening an sbt console:
+From a terminal in this directory, start by opening an sbt console:
 
 
     sbt console
@@ -21,5 +20,3 @@ Then, in the console, load the file `count.sc`.  (Note the colon in  `:load` !)
 
 
     :load count.sc
-
-    
