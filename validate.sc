@@ -6,8 +6,6 @@ val collectionsToFiles = Map(
  "pers" ->   "hmtnames.cex",
   "astro" ->   "astronomy.cex",
   "work" ->   "citedworks.cex"
-
-  //"citedworks.cex" -> "work"
 )
 
 
