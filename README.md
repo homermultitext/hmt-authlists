@@ -10,7 +10,7 @@ For each collection, a file in the [data](data) directory has the contents in a 
 
 Collections should be edited in a local clone of this repository and validated before committing.
 
-### Validating
+## Validating
 
 
 
