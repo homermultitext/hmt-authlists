@@ -3,8 +3,10 @@ import scala.io.Source
 
 val collectionsToFiles = Map(
  "place"   -> "hmtplaces.cex",
- "pers" ->   "hmtnames.cex"  //,
-  //"astronomy.cex" -> "astro",
+ "pers" ->   "hmtnames.cex",
+  "astro" ->   "astronomy.cex",
+  "work" ->   "citedworks.cex"
+
   //"citedworks.cex" -> "work"
 )
 
@@ -57,5 +59,7 @@ def validate(collectionName: String): Unit = {
 println("\n\nValidate a collection and find current highest number:")
 println("\n\tvalidate(COLLECTION)")
 println("\nCOLLECTION should be one of:\n")
-println("\t\"place\"")
-println("\t\"pers\"")
+for (auth <- collectionsToFiles.keySet) {
+  val f = collectionsToFiles(auth)
+  println("\t\"" + auth + "\" (for " + f + ")")
+}
