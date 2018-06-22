@@ -13,8 +13,6 @@ val collectionsToFiles = Map(
 // Report on status of a collection.
 def validate(collectionName: String): Unit = {
   if (collectionsToFiles.keySet.contains(collectionName)) {
-
-
     val lines = Source.fromFile("data/" + collectionsToFiles(collectionName)).getLines.toVector.filter(_.nonEmpty)
     val urns: Vector[Cite2Urn] = lines.drop(2).map(l => {
       val cols = l.split("#")
@@ -32,9 +30,7 @@ def validate(collectionName: String): Unit = {
     // check for dupe ids.
     val dupes = urns.groupBy( u => u).toVector.map({ case (k,v) => (k, v.size) }).filter(_._2 > 1)
 
-
     val numsOnly = urns.map(_.objectComponent.replaceFirst(collectionName,"").toInt).sorted.reverse
-
     println(s"${collectionsToFiles(collectionName)}: ${urns.size} entries with valid URNs.")
     if (dupes.nonEmpty) {
       println("\nERROR:  there were duplicate IDs:")
