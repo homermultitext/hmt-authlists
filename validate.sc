@@ -10,25 +10,40 @@ val collectionsToFiles = Map(
 
 
 
-def validate(collectionName: String) = {
+// Report on status of a collection.
+def validate(collectionName: String): Unit = {
   if (collectionsToFiles.keySet.contains(collectionName)) {
+
+
     val lines = Source.fromFile("data/" + collectionsToFiles(collectionName)).getLines.toVector.filter(_.nonEmpty)
-    val urns: Vector[String] = lines.drop(2).map(l => {
+    val urns: Vector[Cite2Urn] = lines.drop(2).map(l => {
       val cols = l.split("#")
       try {
-        val urn = Cite2Urn(cols(0))
-        urn.objectComponent.toString
+        Cite2Urn(cols(0))
+
       } catch {
         case t: Throwable => {
           println("Failed at " + cols(0) + " from " + l)
-          ""
+          throw(t)
         }
       }
     })
 
-    val numsOnly = urns.map(_.replaceFirst(collectionName,"").toInt).sorted.reverse
+    // check for dupe ids.
+    val dupes = urns.groupBy( u => u).toVector.map({ case (k,v) => (k, v.size) }).filter(_._2 > 1)
 
-    println(s"${collectionsToFiles(collectionName)}: ${urns.size} entries with valid URNs.\nHighest value = ${collectionName}${numsOnly(0)}")
+
+    val numsOnly = urns.map(_.objectComponent.replaceFirst(collectionName,"").toInt).sorted.reverse
+
+    println(s"${collectionsToFiles(collectionName)}: ${urns.size} entries with valid URNs.")
+    if (dupes.nonEmpty) {
+      println("\nERROR:  there were duplicate IDs:")
+      for (dupe <- dupes) {
+        println("\t" + dupe._1 + " -- " + dupe._2 + " entries.")
+      }
+      println("\n")
+    }
+    println(s"Highest value = ${collectionName}${numsOnly(0)}")
 
   } else {
       println("Usage: validate(COLLECTION)")
