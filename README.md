@@ -28,6 +28,6 @@ From a terminal, open an sbt console:
 
 Then, in the console, load the file `validate.sc`.  (Note the colon in  `:load` !)
 
-    :load count.sc
+    :load validate.sc
 
 Follow the on-screen instructions to validate a collection (e.g., `validate("place")`).
