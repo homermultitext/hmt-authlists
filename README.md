@@ -9,7 +9,7 @@ For each collection, a file in the [data](data) directory has the contents in a 
 ## For users
 
 
-If you need a new identifier added to one of the authority lists, please [create a new issue](https://github.com/homermultitext/hmt-authlists/issues), using one of the preformatted templates.
+If you need a new identifier added to one of the authority lists, please create a new issue ([the large green button on this page](https://github.com/homermultitext/hmt-authlists/issues)), using one of the preformatted templates.
 
 ## For editors
 
