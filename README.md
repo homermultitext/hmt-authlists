@@ -6,15 +6,22 @@ Collections are cataloged in [CEX format](https://github.com/cite-architecture/c
 
 For each collection, a file in the [data](data) directory has the contents in a `cex` file.
 
-## Editing a collection
+## For users
+
+
+If you need a new identifier added to one of the authority lists, please create a new issue ([the large green button on this page](https://github.com/homermultitext/hmt-authlists/issues)), using one of the preformatted templates.
+
+## For editors
+
+### Editing a collection
 
 Collections should be edited in a local clone of this repository and validated before committing.
 
-## Validating
+### Validating
 
 
 
-Opening an sbt console:
+From a terminal, open an sbt console:
 
     sbt console
 
