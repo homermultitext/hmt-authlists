@@ -4,15 +4,15 @@ import scala.io.Source
 val collectionsToFiles = Map(
  "place"   -> "hmtplaces.cex",
  "pers" ->   "hmtnames.cex",
-  "astro" ->   "astronomy.cex",
-  "work" ->   "citedworks.cex"
+ "astro" ->   "astronomy.cex",
+ "work" ->   "citedworks.cex"
 )
 
 val collectionsToColumns= Map(
  "place"   -> 6,
  "pers" ->   5,
   "astro" ->   5,
-  "work" ->   3
+  "work" ->   5
 )
 
 
