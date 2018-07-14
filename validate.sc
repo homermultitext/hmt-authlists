@@ -1,6 +1,10 @@
 import edu.holycross.shot.cite._
 import scala.io.Source
 
+
+val vocab = Set(
+  "accepted", "proposed", "rejected"
+)
 val collectionsToFiles = Map(
  "place"   -> "hmtplaces.cex",
  "pers" ->   "hmtnames.cex",
@@ -22,6 +26,10 @@ def validate(collectionName: String): Unit = {
   if (collectionsToFiles.keySet.contains(collectionName)) {
     val lines = Source.fromFile("data/" + collectionsToFiles(collectionName)).getLines.toVector.filter(_.nonEmpty)
     val colSize = collectionsToColumns(collectionName)
+
+
+
+    // Check that URNs are syntactically valid
     val urns: Vector[Cite2Urn] = lines.drop(2).map(l => {
       val cols = l.split("#")
       try {
@@ -37,7 +45,16 @@ def validate(collectionName: String): Unit = {
     })
     // check for dupe ids.
     val dupes = urns.groupBy( u => u).toVector.map({ case (k,v) => (k, v.size) }).filter(_._2 > 1)
-
+    val numsOnly = urns.map(_.objectComponent.replaceFirst(collectionName,"").toInt).sorted.reverse
+    println(s"${collectionsToFiles(collectionName)}: ${urns.size} entries with valid URNs.")
+    if (dupes.nonEmpty) {
+      println("\nERROR:  there were duplicate IDs:")
+      for (dupe <- dupes) {
+        println("\t" + dupe._1 + " -- " + dupe._2 + " entries.")
+      }
+      println("\n")
+    }
+    // check column structure
     for (l <- lines.drop(2)) {
       val cols = l.split("#")
       val oneDown = colSize - 1
@@ -66,17 +83,12 @@ def validate(collectionName: String): Unit = {
       }
     }
 
-
-
-
-    val numsOnly = urns.map(_.objectComponent.replaceFirst(collectionName,"").toInt).sorted.reverse
-    println(s"${collectionsToFiles(collectionName)}: ${urns.size} entries with valid URNs.")
-    if (dupes.nonEmpty) {
-      println("\nERROR:  there were duplicate IDs:")
-      for (dupe <- dupes) {
-        println("\t" + dupe._1 + " -- " + dupe._2 + " entries.")
-      }
-      println("\n")
+    // check status value
+    for (l <- lines.drop(2)) {
+      val cols = l.split("#")
+      val status = cols(colSize - 2)
+      require(vocab.contains(status), "Failed at " + l +"\n" +
+      "invalid value  for status: " + status)
     }
     println(s"Highest value = ${collectionName}${numsOnly(0)}")
 
