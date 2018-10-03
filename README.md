@@ -28,6 +28,17 @@ From a terminal, open an sbt console:
 
 Then, in the console, load the file `validate.sc`.  (Note the colon in  `:load` !)
 
-    :load count.sc
+    :load validate.sc
 
 Follow the on-screen instructions to validate a collection (e.g., `validate("place")`).
+
+
+### Format of personal names list
+
+The list of personal names has 7 columns with these headings:
+
+>urn#mf#character#label#description#status#redirect
+
+For the `mf` column, values should be one of `m` for male, `f` female or `TBD` for any values not yet determined.
+
+For the `character` column, values should be one of `literary` for figures appearing in the *Iliad* or other literary works, `historical` for historical figures such as editors or scholars, and `divinity` for names of divinities.
