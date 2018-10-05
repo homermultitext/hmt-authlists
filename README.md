@@ -42,3 +42,5 @@ The list of personal names has 7 columns with these headings:
 For the `mf` column, values should be one of `m` for male, `f` female or `TBD` for any values not yet determined.
 
 For the `character` column, values should be one of `literary` for figures appearing in the *Iliad* or other literary works, `historical` for historical figures such as editors or scholars, and `divinity` for names of divinities.
+
+For the `status` column, values should be one of `proposed`, `accepted`, `rejected`.  
