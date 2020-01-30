@@ -20,7 +20,7 @@
           <glyphName>The "ice-cream cone" dingbat</glyphName>
           <mapping type="urn">urn:cite2:hmt:dingbats.v1:db1</mapping>
           <mapping type="codepoint">☉</mapping>
-          <note>Also used as astronomical symbol for Sun.  Visual glyph could is Unicode \x2609</note>
+          <note>Same glyph is also used as astronomical symbol for Sun.  Visual glyph could is Unicode \x2609</note>
         </glyph>
         <glyph xml:id="curly-pipe">
           <glyphName>The "curly pipe" dingbat</glyphName>
@@ -34,12 +34,30 @@
           <glyphName>The "lower-case b" dingbat</glyphName>
           <mapping type="urn">urn:cite2:hmt:dingbats.v1:db4</mapping>
         </glyph>
+        <glyph xml:id="asterisk">
+          <glyphName>The "asterisk" or "little star" dingbat</glyphName>
+          <mapping type="urn">urn:cite2:hmt:dingbats.v1:db5</mapping>
+          <mapping type="codepoint">※</mapping>
+          <note>Same glyph is also used in Venetus A manuscript as an Aristarchan critical sign. Unicode \x203B</note>
+        </glyph>
+        <glyph xml:id="sideways-latter">
+          <glyphName>The "sideways 2-rung ladder" dingbat</glyphName>
+          <mapping type="urn">urn:cite2:hmt:dingbats.v1:db6</mapping>
+        </glyph>
+        <glyph xml:id="upside-down-J">
+          <glyphName>The "upside-down capital J" dingbat</glyphName>
+          <mapping type="urn">urn:cite2:hmt:dingbats.v1:db7</mapping>
+        </glyph>
+        <glyph xml:id="three-runged-sigma">
+          <glyphName>The "three-runged sigma" dingbat</glyphName>
+          <mapping type="urn">urn:cite2:hmt:dingbats.v1:db8x</mapping>
+        </glyph>
       </charDecl>
     </encodingDesc>
   </teiHeader>
   <text>
     <body>
-      <p><g ref="#ice-cream-cone"/>This paragraph is tagged with a dingbat</p>
+      <p><g ref="#ice-cream-cone"/>This paragraph begins with a dingbat</p>
     </body>
   </text>
 </TEI>
