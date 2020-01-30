@@ -18,8 +18,21 @@
       <charDecl>
         <glyph xml:id="ice-cream-cone">
           <glyphName>The "ice-cream cone" dingbat</glyphName>
-          <mapping type="unicode">☉</mapping>
+          <mapping type="urn">urn:cite2:hmt:dingbats.v1:db1</mapping>
+          <mapping type="codepoint">☉</mapping>
           <note>Also used as astronomical symbol for Sun.  Visual glyph could is Unicode \x2609</note>
+        </glyph>
+        <glyph xml:id="curly-pipe">
+          <glyphName>The "curly pipe" dingbat</glyphName>
+          <mapping type="urn">urn:cite2:hmt:dingbats.v1:db2</mapping>
+        </glyph>
+        <glyph xml:id="reverse-curly-pipe">
+          <glyphName>The "reverse curly pipe" dingbat</glyphName>
+          <mapping type="urn">urn:cite2:hmt:dingbats.v1:db3</mapping>
+        </glyph>
+        <glyph xml:id="lower-case-b">
+          <glyphName>The "lower-case b" dingbat</glyphName>
+          <mapping type="urn">urn:cite2:hmt:dingbats.v1:db4</mapping>
         </glyph>
       </charDecl>
     </encodingDesc>
