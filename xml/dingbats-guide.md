@@ -2,7 +2,7 @@
 
 Encode dingbat characters in your TEI XML editions by doing two things:
 
-1. In the `teiHeader` of your document, add the `encodingDesc` defining glyphs for dingbats.  You can copy this from the `[dingbats-template.xml](dingbats-template.xml)` file in this directory.
+1. In the `teiHeader` of your document, add the `encodingDesc` defining glyphs for dingbats.  You can copy this from the [`dingbats-template.xml`](dingbats-template.xml) file in this directory.
 2. In the text of your edition, use the TEI `g` element with a `@ref` attribute giving the XML ID for your glyph.
 
 
