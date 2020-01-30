@@ -40,7 +40,7 @@
           <mapping type="codepoint">※</mapping>
           <note>Same glyph is also used in Venetus A manuscript as an Aristarchan critical sign. Unicode \x203B</note>
         </glyph>
-        <glyph xml:id="sideways-latter">
+        <glyph xml:id="sideways-ladder">
           <glyphName>The "sideways 2-rung ladder" dingbat</glyphName>
           <mapping type="urn">urn:cite2:hmt:dingbats.v1:db6</mapping>
         </glyph>
