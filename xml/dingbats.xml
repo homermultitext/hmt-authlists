@@ -1,0 +1,32 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dingbats example</title>
+      </titleStmt>
+      <editionStmt>
+        <p>Reference example for HMT editors</p>
+      </editionStmt>
+      <publicationStmt>
+        <p>Published for reference on github.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born-digital work.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <charDecl>
+        <glyph xml:id="ice-cream-cone">
+          <glyphName>The "ice-cream cone" dingbat</glyphName>
+          <mapping type="unicode">☉</mapping>
+          <note>Also used as astronomical symbol for Sun.  Visual glyph could is Unicode \x2609</note>
+        </glyph>
+      </charDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p><g ref="#ice-cream-cone"/>This paragraph is tagged with a dingbat</p>
+    </body>
+  </text>
+</TEI>
