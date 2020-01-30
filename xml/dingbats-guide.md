@@ -1,4 +1,4 @@
-## Guide to markup of dingbat characters
+## Guide to encoding dingbat characters
 
 Encode dingbat characters in your TEI XML editions by doing two things:
 
