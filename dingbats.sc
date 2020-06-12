@@ -17,7 +17,7 @@ val data = Source.fromFile(db).getLines.toVector.drop(2)
 
 def formatImage(row: Vector[String]) = {
   val db = Cite2Urn(row(0))
-  val label = row(1) + s", **${db.objectComponent}**"
+  val label = row(1) + s", `${db}`"
   val u = Cite2Urn(row(3))
 
   val fullPath = pathBase + PathUtility.expandedPath(u)
