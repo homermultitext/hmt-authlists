@@ -10,14 +10,16 @@ val collectionsToFiles = Map(
  "place"   -> "hmtplaces.cex",
  "pers" ->   "hmtnames.cex",
  "astro" ->   "astronomy.cex",
- "work" ->   "citedworks.cex"
+ "work" ->   "citedworks.cex",
+ "dingbats" -> "dingbats.cex"
 )
 
 val collectionsToColumns = Map(
  "place"   -> 6,
  "pers" ->   7,
   "astro" ->   5,
-  "work" ->   5
+  "work" ->   5,
+  "dingbats" -> 6
 )
 
 def checkColumnStructure (lns:  Vector[String], colSize: Int) = {
@@ -53,6 +55,8 @@ def checkColumnStructure (lns:  Vector[String], colSize: Int) = {
   }
 }
 
+
+// First column must be the Cite2Urn for the identified object
 def urnsFromLines(lines: Vector[String]) :  Vector[Cite2Urn] = {
   val urns = lines.map(l => {
     val cols = l.split("#")
@@ -76,7 +80,6 @@ val mfValues = Set("m", "f", "TBD")
 val characterValues = Set("literary", "historical", "divinity", "TBD")
 
 def checkPersNames(lines:  Vector[String]): Unit = {
-
   for (l <- lines) {
     val cols = l.split("#")
     if (! mfValues.contains(cols(1))) {
