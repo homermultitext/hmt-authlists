@@ -13,8 +13,6 @@ val db = "data/dingbats.cex"
 val data = Source.fromFile(db).getLines.toVector.drop(2)
 
 
-
-
 def formatImage(row: Vector[String]) = {
   val db = Cite2Urn(row(0))
   val label = row(1) + s", `${db}`"
