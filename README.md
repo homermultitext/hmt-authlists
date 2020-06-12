@@ -11,6 +11,8 @@ For each collection, a file in the [data](data) directory has the contents in a 
 
 If you need a new identifier added to one of the authority lists, please create a new issue ([the large green button on this page](https://github.com/homermultitext/hmt-authlists/issues)), using one of the preformatted templates.
 
+If you need to look up the URN for a dingbat, you can use [this chart](https://github.com/homermultitext/hmt-authlists/blob/master/dingbatviewer.md).
+
 ## For editors
 
 ### Editing a collection
