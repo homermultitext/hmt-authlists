@@ -32,7 +32,7 @@ def mdRow(cells: Vector[String]): String = {
 val imgs = data.map(_.split("#").toVector).map(row => formatImage(row))
 
 
-val tableByRows = imgs.sliding(5,5).toVector
+val tableByRows = imgs.sliding(columns,columns).toVector
 
 val hdr = for  (c <- 1 to columns) yield " "
 val separator = for  (c <- 1 to columns) yield "--- "
