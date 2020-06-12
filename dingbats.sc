@@ -4,7 +4,7 @@ import edu.holycross.shot.cite._
 import edu.holycross.shot.citebinaryimage._
 val baseUrl  = "http://www.homermultitext.org/iipsrv?"
 val pathBase = "/project/homer/pyramidal/deepzoom/"
-val columns = 5
+val columns = 3
 val imgWidth = 150
 
 
