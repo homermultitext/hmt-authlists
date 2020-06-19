@@ -1,6 +1,9 @@
 ---
 name: New geographic name
 about: Add new name to hmtplace authority list
+title: ''
+labels: ''
+assignees: ''
 
 ---
 

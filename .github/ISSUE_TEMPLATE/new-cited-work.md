@@ -1,6 +1,9 @@
 ---
 name: New cited work
 about: Add new cited work to HMT authority list.
+title: ''
+labels: ''
+assignees: ''
 
 ---
 

@@ -1,6 +1,9 @@
 ---
 name: New personal name
 about: Add new personal name to hmtnames list
+title: ''
+labels: ''
+assignees: ''
 
 ---
 
