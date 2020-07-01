@@ -9,7 +9,7 @@ urn:cite2:hmt:dingbats.v1:dingbats6#Roman Numeral Two#The "sideways 2-rung ladde
 urn:cite2:hmt:dingbats.v1:dingbats7#Upside-Down Capital J#The "Upside-Down Capital J" dingbat#urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f083r@0.3587,0.7309,0.03263,0.02343#proposed#
 urn:cite2:hmt:dingbats.v1:dingbats8#Three-Runged Sigma#The "Three-Runged Sigma" dingbat#urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f083r@0.3442,0.7516,0.04905,0.02496#proposed#
 urn:cite2:hmt:dingbats.v1:dingbats9#Cherry Pointing Left#The "circle with a tail pointing left" dingbat#urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f250r@0.6215,0.4577,0.03406,0.02498#proposed#
-urn:cite2:hmt:dingbats.v1:dingbats10#Psi Pointing Right#The "horizontal line with a curved line pointing right" dingbat#urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f250r@0.6105,0.6587,0.04788,0.03537#proposed#
+urn:cite2:hmt:dingbats.v1:dingbats10#Psi Pointing Right#The "horizontal line with a curved line pointing right" dingbat#urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f250r@0.6140,0.5178,0.04355,0.02547#proposed#
 urn:cite2:hmt:dingbats.v1:dingbats11#Tilde#The "singular curved line" dingbat#urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f250r@0.6099,0.6140,0.03798,0.03228#proposed#
 urn:cite2:hmt:dingbats.v1:dingbats12#Grapevine#The "curved line with several circles attached" dingbat#urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f250r@0.5740,0.4823,0.07245,0.03407#proposed#
 urn:cite2:hmt:dingbats.v1:dingbats13#Cherry Pointing Right#The "circle with a tail pointing right" dingbat#urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f250r@0.6105,0.6587,0.04788,0.03537#proposed#
@@ -27,3 +27,5 @@ urn:cite2:hmt:dingbats.v1:dingbats24#Double Dashed Left Arrow#The "left arrow wi
 urn:cite2:hmt:dingbats.v1:dingbats25#Tau with Flourish#The "tau connected to a sigma" dingbat#urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f250r@0.06068,0.8091,0.03096,0.01995#proposed#
 urn:cite2:hmt:dingbats.v1:dingbats26#Earring Hook#The "tilde with a point at the end" dingbat#urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f250r@0.4076,0.8204,0.04479,0.02515#proposed#
 urn:cite2:hmt:dingbats.v1:dingbats27#Target#The "x in a circle" dingbat"#urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f250r@0.04293,0.8373,0.03653,0.02693#proposed#
+urn:cite2:hmt:dingbats.v1:dingbats28#Straight Unequal Sign#The "straight line with slashes" dingbat#urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f250r@0.6035,0.05143,0.04520,0.03504#proposed#
+urn:cite2:hmt:dingbats.v1:dingbats29#Backwards Rho#The "circle with a downward line" dingbat#urn:cite2:citebl:burney86imgs.v1:burney_ms_86_f250r@0.6058,0.1186,0.04211,0.02823#proposed#
