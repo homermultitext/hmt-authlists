@@ -45,4 +45,9 @@ For the `mf` column, values should be one of `m` for male, `f` female or `TBD` f
 
 For the `character` column, values should be one of `literary` for figures appearing in the *Iliad* or other literary works, `historical` for historical figures such as editors or scholars, and `divinity` for names of divinities.
 
-For the `status` column, values should be one of `proposed`, `accepted`, `rejected`.  
+For the `status` column, values should be one of `proposed`, `accepted`, `rejected`.
+
+
+### Regenerating dingbats viewer
+
+From an sbt console, load the script `dingbats.sc` 
