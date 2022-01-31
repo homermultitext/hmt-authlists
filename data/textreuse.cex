@@ -1,8 +1,8 @@
 #!citedata
-urn#Label
-urn:cite2:cite2hmt:reusetype:quote1#Literally quoted from extant text
-urn:cite2:cite2hmt:reusetype:quote2#Literally quoted from no longer extant text
-urn:cite2:cite2hmt:reusetype:langusage#Example of usage quoted from a native speaker's knowledge of the language, not necessarily from a textual example
-urn:cite2:cite2hmt:reusetype:multiform1#Literally quoted multiform of a given passage
-urn:cite2:cite2hmt:reusetype:multiform2#Apparent multiform, not explicitly identified as such in the text of the scholion
-urn:cite2:cite2hmt:reusetype:quote3#Quotation of imagined speech or text 'contrafactual quotation'
+urn|Label
+urn:cite2:cite2hmt:reusetype:quote1|Literally quoted from extant text
+urn:cite2:cite2hmt:reusetype:quote2|Literally quoted from no longer extant text
+urn:cite2:cite2hmt:reusetype:langusage|Example of usage quoted from a native speaker's knowledge of the language, not necessarily from a textual example
+urn:cite2:cite2hmt:reusetype:multiform1|Literally quoted multiform of a given passage
+urn:cite2:cite2hmt:reusetype:multiform2|Apparent multiform, not explicitly identified as such in the text of the scholion
+urn:cite2:cite2hmt:reusetype:quote3|Quotation of imagined speech or text 'contrafactual quotation'

@@ -1,9 +1,9 @@
 #!citedata
-URN#Label#CtsUrn#Status#Redirect
-urn:cite2:hmt:citedworks:work1#Odyssey#urn:cts:greekLit:tlg0012.tlg002:#proposed#
-urn:cite2:hmt:citedworks:work2#Cypria##proposed#
-urn:cite2:hmt:citedworks:work3#Psychostasia##proposed#
-urn:cite2:hmt:citedworks:work4#Iliad#urn:cts:greekLit:tlg0012.tlg001:#proposed#
-urn:cite2:hmt:citedworks:work5#Thessalica##proposed#
-urn:cite2:hmt:citedworks:work6#The Apology of Socrates#urn:cts:greekLit:tlg0059.tlg002:#proposed#
-urn:cite2:hmt:citedworks:work7#On Dreams (by Artemon)##proposed#
+URN|Label|CtsUrn|Status|Redirect
+urn:cite2:hmt:citedworks:work1|Odyssey|urn:cts:greekLit:tlg0012.tlg002:|proposed|
+urn:cite2:hmt:citedworks:work2|Cypria||proposed|
+urn:cite2:hmt:citedworks:work3|Psychostasia||proposed|
+urn:cite2:hmt:citedworks:work4|Iliad|urn:cts:greekLit:tlg0012.tlg001:|proposed|
+urn:cite2:hmt:citedworks:work5|Thessalica||proposed|
+urn:cite2:hmt:citedworks:work6|The Apology of Socrates|urn:cts:greekLit:tlg0059.tlg002:|proposed|
+urn:cite2:hmt:citedworks:work7|On Dreams (by Artemon)||proposed|
