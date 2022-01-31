@@ -1,19 +1,14 @@
-#!citecatalog
-
-
-// Typology of interlinear glosses
+#!citecollection
+URN|Description|Labelling Ordering License
 urn:cite2:hmt:iltype.2017a:|Types of interlinear glosses|urn:cite2:hmt:iltype.2017a.label:|CC-attribution-share-alike
+urn:cite2:hmt:reusetype.2017a:|Types of interlinear glosses|urn:cite2:hmt:reusetype.2017a.label:|CC-attribution-share-alike
 
-
+#!citeproperties
+Label|Type|Authority list
+// Typology of interlinear glosses
 urn:cite2:hmt:iltype.2017a.urn:|URN|Cite2Urn|
 urn:cite2:hmt:iltype.2017a.label:|Label|String|
 
-
-
-
 // Typology of text reuse
-urn:cite2:hmt:reusetype.2017a:|Types of interlinear glosses|urn:cite2:hmt:reusetype.2017a.label:|CC-attribution-share-alike
-
-
 urn:cite2:hmt:reusetype.2017a.urn:|URN|Cite2Urn|
 urn:cite2:hmt:reusetype.2017a.label:|Label|String|
