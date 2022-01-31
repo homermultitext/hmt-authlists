@@ -2,18 +2,18 @@
 
 
 // Typology of interlinear glosses
-collection|urn:cite2:hmt:iltype.2017a:|Types of interlinear glosses|urn:cite2:hmt:iltype.2017a.label:|CC-attribution-share-alike
+urn:cite2:hmt:iltype.2017a:|Types of interlinear glosses|urn:cite2:hmt:iltype.2017a.label:|CC-attribution-share-alike
 
 
-property|urn:cite2:hmt:iltype.2017a.urn:|URN|Cite2Urn|
-property|urn:cite2:hmt:iltype.2017a.label:|Label|String|
+urn:cite2:hmt:iltype.2017a.urn:|URN|Cite2Urn|
+urn:cite2:hmt:iltype.2017a.label:|Label|String|
 
 
 
 
 // Typology of text reuse
-collection|urn:cite2:hmt:reusetype.2017a:|Types of interlinear glosses|urn:cite2:hmt:reusetype.2017a.label:|CC-attribution-share-alike
+urn:cite2:hmt:reusetype.2017a:|Types of interlinear glosses|urn:cite2:hmt:reusetype.2017a.label:|CC-attribution-share-alike
 
 
-property|urn:cite2:hmt:reusetype.2017a.urn:|URN|Cite2Urn|
-property|urn:cite2:hmt:reusetype.2017a.label:|Label|String|
+urn:cite2:hmt:reusetype.2017a.urn:|URN|Cite2Urn|
+urn:cite2:hmt:reusetype.2017a.label:|Label|String|
