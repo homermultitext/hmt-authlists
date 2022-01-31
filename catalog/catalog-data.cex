@@ -1,42 +1,33 @@
-#!citecatalog
 
+#!citecollection
+URN|Description|Labelling Ordering License
+urn:cite2:hmt:pers.2017a:|Personal names|urn:cite2:hmt:pers.2017a.label:||CC-attribution-share-alike
+urn:cite2:hmt:astro.2017a:|Astronomical entities|urn:cite2:hmt:astro.2017a:Label||CC-attribution-share-alike
+urn:cite2:hmt:citedworks.2017a:|Texts cited in scholia|urn:cite2:hmt:citedworks.2017a:Label||CC-attribution-share-alike
+urn:cite2:hmt:place.2017a:|Place names|urn:cite2:hmt:place.2017a.label:||CC-attribution-share-alike
+
+#!citeproperties
+Label|Type|Authority list
 // Named entities: astronomical entities
-collection|urn:cite2:hmt:astro.2017a:|Astronomical entities|uurn:cite2:hmt:astro.2017a:Label|CC-attribution-share-alike
-
-property|urn:cite2:hmt:astro.2017a:urn|URN|Cite2Urn|
-property|urn:cite2:hmt:astro.2017a:label:|Label|String|
-property|urn:cite2:hmt:astro.2017a:decription:|Description|String|
-property|urn:cite2:hmt:astro.2017a:status:|Status|String|proposed,approved,rejected
-property|urn:cite2:hmt:astro.2017a:redirect:|Redirect|Cite2Urn|
-
-
-
+urn:cite2:hmt:astro.2017a:urn|URN|Cite2Urn|
+urn:cite2:hmt:astro.2017a:label:|Label|String|
+urn:cite2:hmt:astro.2017a:decription:|Description|String|
+urn:cite2:hmt:astro.2017a:status:|Status|String|proposed,approved,rejected
+urn:cite2:hmt:astro.2017a:redirect:|Redirect|Cite2Urn|
 // Texts cited in scholia
-collection|urn:cite2:hmt:citedworks.2017a:|Texts cited in scholia|urn:cite2:hmt:citedworks.2017a:Label|CC-attribution-share-alike
-
-property|urn:cite2:hmt:citedworks.2017a.urn:|URN|Cite2Urn|
-property|urn:cite2:hmt:citedworks.2017a.label:|Label|String|
-property|urn:cite2:hmt:citedworks.2017a.textUrn:|Text URN|CtsUrn|
-
-
+urn:cite2:hmt:citedworks.2017a.urn:|URN|Cite2Urn|
+urn:cite2:hmt:citedworks.2017a.label:|Label|String|
+urn:cite2:hmt:citedworks.2017a.textUrn:|Text URN|CtsUrn|
 
 // Named entities: personal names
-collection|urn:cite2:hmt:pers.2017a:|Personal names|urn:cite2:hmt:pers.2017a.label:|CC-attribution-share-alike
-
-
-property|urn:cite2:hmt:pers.2017a.urn:|URN|Cite2Urn|
-property|urn:cite2:hmt:pers.2017a.label:|Label|String|
-property|urn:cite2:hmt:pers.2017a.decription:|Description|String|
-property|urn:cite2:hmt:pers.2017a.status:|Status|String|proposed,approved,rejected
-
-
+urn:cite2:hmt:pers.2017a.urn:|URN|Cite2Urn|
+urn:cite2:hmt:pers.2017a.label:|Label|String|
+urn:cite2:hmt:pers.2017a.decription:|Description|String|
+urn:cite2:hmt:pers.2017a.status:|Status|String|proposed,approved,rejected
 
 // Named entities: place names
-collection|urn:cite2:hmt:place.2017a:|Place names|urn:cite2:hmt:place.2017a.label:|CC-attribution-share-alike
-
-
-property|urn:cite2:hmt:place.2017a.urn:|URN|Cite2Urn|
-property|urn:cite2:hmt:place.2017a.label:|Label|String|
-property|urn:cite2:hmt:place.2017a.decription:|Description|String|
-property|urn:cite2:hmt:place.2017a.status:|Status|String|proposed,approved,rejected
+urn:cite2:hmt:place.2017a.urn:|URN|Cite2Urn|
+urn:cite2:hmt:place.2017a.label:|Label|String|
+urn:cite2:hmt:place.2017a.decription:|Description|String|
+urn:cite2:hmt:place.2017a.status:|Status|String|proposed,approved,rejected
 
