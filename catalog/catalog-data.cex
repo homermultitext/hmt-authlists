@@ -1,23 +1,19 @@
 
 #!citecollections
-URN|Description|Labelling Ordering License
+URN|Description|Labelling property|Ordering property|License
 urn:cite2:hmt:pers.2017a:|Personal names|urn:cite2:hmt:pers.2017a.label:||CC-attribution-share-alike
 urn:cite2:hmt:astro.2017a:|Astronomical entities|urn:cite2:hmt:astro.2017a:Label||CC-attribution-share-alike
 urn:cite2:hmt:citedworks.2017a:|Texts cited in scholia|urn:cite2:hmt:citedworks.2017a:Label||CC-attribution-share-alike
 urn:cite2:hmt:place.2017a:|Place names|urn:cite2:hmt:place.2017a.label:||CC-attribution-share-alike
 
 #!citeproperties
-Label|Type|Authority list
+URN|Label|Type|Authority list
 // Named entities: astronomical entities
 urn:cite2:hmt:astro.2017a.urn:|URN|Cite2Urn|
 urn:cite2:hmt:astro.2017a.label:|Label|String|
 urn:cite2:hmt:astro.2017a.decription:|Description|String|
 urn:cite2:hmt:astro.2017a.status:|Status|String|proposed,approved,rejected
 urn:cite2:hmt:astro.2017a.redirect:|Redirect|Cite2Urn|
-// Texts cited in scholia
-urn:cite2:hmt:citedworks.2017a.urn:|URN|Cite2Urn|
-urn:cite2:hmt:citedworks.2017a.label:|Label|String|
-urn:cite2:hmt:citedworks.2017a.textUrn:|Text URN|CtsUrn|
 
 // Named entities: personal names
 urn:cite2:hmt:pers.2017a.urn:|URN|Cite2Urn|
@@ -31,3 +27,10 @@ urn:cite2:hmt:place.2017a.label:|Label|String|
 urn:cite2:hmt:place.2017a.decription:|Description|String|
 urn:cite2:hmt:place.2017a.status:|Status|String|proposed,approved,rejected
 
+
+#!citeproperties
+URN|Label|Type|Authority list
+// Texts cited in scholia
+urn:cite2:hmt:citedworks.2017a.urn:|URN|Cite2Urn|
+urn:cite2:hmt:citedworks.2017a.label:|Label|String|
+urn:cite2:hmt:citedworks.2017a.textUrn:|Text URN|CtsUrn|
