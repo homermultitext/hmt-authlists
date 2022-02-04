@@ -1,41 +1,42 @@
-
 #!citecollections
 URN|Description|Labelling property|Ordering property|License
-urn:cite2:hmt:pers.2017a:|Personal names|urn:cite2:hmt:pers.2017a.label:||CC-attribution-share-alike
-urn:cite2:hmt:astro.2017a:|Astronomical entities|urn:cite2:hmt:astro.2017a:Label||CC-attribution-share-alike
-urn:cite2:hmt:citedworks.2017a:|Texts cited in scholia|urn:cite2:hmt:citedworks.2017a:Label||CC-attribution-share-alike
-urn:cite2:hmt:place.2017a:|Place names|urn:cite2:hmt:place.2017a.label:||CC-attribution-share-alike
+urn:cite2:hmt:pers.v1:|Personal names|urn:cite2:hmt:pers.v1.label:||CC-attribution-share-alike
+urn:cite2:hmt:astro.v1:|Astronomical entities|urn:cite2:hmt:astro.v1:Label||CC-attribution-share-alike
+urn:cite2:hmt:citedworks.v1:|Texts cited in scholia|urn:cite2:hmt:citedworks.v1:Label||CC-attribution-share-alike
+urn:cite2:hmt:place.v1:|Place names|urn:cite2:hmt:place.v1.label:||CC-attribution-share-alike
 
 #!citeproperties
 URN|Label|Type|Authority list
 // Named entities: astronomical entities
-urn:cite2:hmt:astro.2017a.urn:|URN|Cite2Urn|
-urn:cite2:hmt:astro.2017a.label:|Label|String|
-urn:cite2:hmt:astro.2017a.decription:|Description|String|
-urn:cite2:hmt:astro.2017a.status:|Status|String|proposed,approved,rejected
-urn:cite2:hmt:astro.2017a.redirect:|Redirect|Cite2Urn|
+urn:cite2:hmt:astro.v1.urn:|URN|Cite2Urn|
+urn:cite2:hmt:astro.v1.label:|Label|String|
+urn:cite2:hmt:astro.v1.description:|Description|String|
+urn:cite2:hmt:astro.v1.status:|Status|String|proposed,approved,rejected
+urn:cite2:hmt:astro.v1.redirect:|Redirect|Cite2Urn|
 
 // Named entities: personal names
-urn:cite2:hmt:pers.2017a.urn:|URN|Cite2Urn|
-urn:cite2:hmt:pers.2017a.mf:|MF|String|m,f,TBD
-urn:cite2:hmt:pers.2017a.label:|Character|String|divinity,literary,TBD
-urn:cite2:hmt:pers.2017a.label:|Label|String|
-urn:cite2:hmt:pers.2017a.decription:|Description|String|
-urn:cite2:hmt:pers.2017a.status:|Status|String|proposed,approved,rejected
+urn:cite2:hmt:pers.v1.urn:|URN|Cite2Urn|
+urn:cite2:hmt:pers.v1.mf:|MF|String|m,f,TBD
+urn:cite2:hmt:pers.v1.character:|Character|String|divinity,literary,TBD
+urn:cite2:hmt:pers.v1.label:|Label|String|
+urn:cite2:hmt:pers.v1.description:|Description|String|
+urn:cite2:hmt:pers.v1.status:|Status|String|proposed,approved,rejected
+urn:cite2:hmt:pers.v1.redirect:|Redirect|Cite2Urn|
 
 // Named entities: place names
-urn:cite2:hmt:place.2017a.urn:|URN|Cite2Urn|
-urn:cite2:hmt:place.2017a.label:|Label|String|
-urn:cite2:hmt:place.2017a.decription:|Description|String|
-urn:cite2:hmt:place.2017a.status:|Pleiades|String|
-urn:cite2:hmt:place.2017a.status:|Status|String|proposed,approved,rejected
+urn:cite2:hmt:place.v1.urn:|URN|Cite2Urn|
+urn:cite2:hmt:place.v1.label:|Label|String|
+urn:cite2:hmt:place.v1.description:|Description|String|
+urn:cite2:hmt:place.v1.pleiades:|Pleiades|String|
+urn:cite2:hmt:place.v1.status:|Status|String|proposed,approved,rejected
+urn:cite2:hmt:place.v1.redirect:|Redirect|Cite2Urn|
 
 
 #!citeproperties
 URN|Label|Type|Authority list
 // Texts cited in scholia
-urn:cite2:hmt:citedworks.2017a.urn:|URN|Cite2Urn|
-urn:cite2:hmt:citedworks.2017a.label:|Label|String|
-urn:cite2:hmt:citedworks.2017a.textUrn:|Text URN|CtsUrn|
-urn:cite2:hmt:citedworks.2017a.label:|Status|String|
-urn:cite2:hmt:astro.2017a.redirect:|Redirect|Cite2Urn|
+urn:cite2:hmt:citedworks.v1.urn:|URN|Cite2Urn|
+urn:cite2:hmt:citedworks.v1.label:|Label|String|
+urn:cite2:hmt:citedworks.v1.texturn:|Text URN|CtsUrn|
+urn:cite2:hmt:citedworks.v1.status:|Status|String|
+urn:cite2:hmt:citedworks.v1.redirect:|Redirect|Cite2Urn|
