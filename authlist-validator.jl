@@ -18,6 +18,7 @@ end
 begin
 	using CitableBase
 	using CitableCollection
+	using CiteEXchange
 	using PlutoUI
 end
 
@@ -29,10 +30,10 @@ md"""
 >
 > 1. Choose a list to validate from the popup menu
 > 2. If you get *error* messages, correct the entry in your CEX file.
-> 3. Click the `Reload`, and start over at 1.
+> 3. Click the `Reload` button, and start over at step 1.
 >
 >
-> You can safely ignore *warning* messages about empty columns, which will appear when you (intentionally) leave a column for redirecting IDs blank.  The warnings look like this:
+> You can safely ignore *warning* messages about empty columns, which will appear when you (intentionally) leave a column blank for values like redirecting IDs.  The warnings look like this:
 >
 > ![warning](https://raw.githubusercontent.com/homermultitext/hmt-authlists/master/warning.png)
 
@@ -47,6 +48,11 @@ md"""
 # ╔═╡ 2ea6e5ef-654b-4d73-8058-635ba8c44d9b
 md"""*Reload data from file*: 
 $(@bind reload Button("Reload"))
+"""
+
+# ╔═╡ 5e7b9f5e-1029-4be2-8d3b-23c0cb470ebd
+md"""*Choose a list to validate* 
+$(@bind listcex Select(["", "Place names", "Personal names",  "Astronomical names", "Cited works"]))
 """
 
 # ╔═╡ d050600a-62c8-45bc-9964-638bedffdc17
@@ -77,18 +83,61 @@ begin
 	astronamescex = read(joinpath(pwd(), "data", "astronomy.cex"), String)
 end
 
-# ╔═╡ 5e7b9f5e-1029-4be2-8d3b-23c0cb470ebd
-md"""*Choose a list to validate* 
-$(@bind listcex Select(["" => "", placenamescex => "Place names", personnamescex => "Personal names", astronamescex => "Astronomical bodies", citedworkscex => "Cited works"]))
-"""
+# ╔═╡ 3f465769-4169-4b3b-9d00-03c7a61e9596
+cexdict = Dict(
+	"Cited works" => citedworkscex,
+	"Place names" => placenamescex,
+	"Personal names" => personnamescex,
+	"Astronomical names" => astronamescex
+)
+
+# ╔═╡ c513a302-beaa-4d26-9b6a-cc34dcc6bad6
+md"""Counting"""
+
+# ╔═╡ 985fd0a1-bb6c-4f9d-b407-f23656876c8f
+function baseurn()
+	
+	if listcex == "Place names"
+		"urn:cite2:hmt:place.v1:place"
+	elseif listcex == "Personal names"
+		"urn:cite2:hmt:pers.v1:pers"
+	elseif listcex == "Astronomical names"
+		"urn:cite2:hmt:astro.v1:astro"
+	elseif listcex == "Cited works"
+		"urn:cite2:hmt:citedworks.v1:work"
+	else
+		""
+	end
+end
+
+# ╔═╡ 4ead8530-9f01-44b8-a154-f9fe01dec51f
+function highest()
+	currenturnbase = baseurn()
+	datalines = data(cexdict[listcex], "citedata")
+	urnnums = []
+	for ln in datalines 
+		columns = split(ln, "|")
+		urnnum = replace(columns[1], currenturnbase => "")
+		push!(urnnums, parse(Int64, urnnum) )
+	end
+	currenturnbase * "." * string(maximum(urnnums))
+end
 
 # ╔═╡ 88771aa5-47be-463f-8461-2c2b751addc9
 begin
-	citecolls = fromcex(catalogcex * "\n" * listcex, CatalogedCollection)
-	if isempty(citecolls)
+	if isempty(listcex)
 		md""
 	else
-		md"""### *Validated collection with **$(length(citecolls[1])) entries**.*
+		title = listcex
+		citecolls = fromcex(catalogcex * "\n" * cexdict[listcex], CatalogedCollection)
+		lastcount = highest()
+
+		
+		md"""
+## Results for collection *$(listcex)*
+		
+- Validated collection with **$(length(citecolls[1])) entries**.
+- Highest number used in URNs: **$(lastcount)**
 		"""
 	end
 end
@@ -98,11 +147,13 @@ PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
 CitableBase = "d6f014bd-995c-41bd-9893-703339864534"
 CitableCollection = "7b95b006-44c5-4794-afff-00ccebff52d7"
+CiteEXchange = "e2e9ead3-1b6c-4e96-b95f-43e6ab899178"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 
 [compat]
 CitableBase = "~10.0.0"
 CitableCollection = "~0.4.2"
+CiteEXchange = "~0.9.3"
 PlutoUI = "~0.7.34"
 """
 
@@ -518,6 +569,10 @@ uuid = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
 # ╟─d050600a-62c8-45bc-9964-638bedffdc17
 # ╟─8e278922-49aa-49e1-a228-026d982c63c1
 # ╟─492f6010-c2fd-4142-a186-246a048e467c
+# ╟─3f465769-4169-4b3b-9d00-03c7a61e9596
 # ╟─89dc069d-f044-47eb-8574-63a5784d727d
+# ╟─c513a302-beaa-4d26-9b6a-cc34dcc6bad6
+# ╟─4ead8530-9f01-44b8-a154-f9fe01dec51f
+# ╟─985fd0a1-bb6c-4f9d-b407-f23656876c8f
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
