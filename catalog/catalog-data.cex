@@ -9,11 +9,11 @@ urn:cite2:hmt:place.2017a:|Place names|urn:cite2:hmt:place.2017a.label:||CC-attr
 #!citeproperties
 Label|Type|Authority list
 // Named entities: astronomical entities
-urn:cite2:hmt:astro.2017a:urn|URN|Cite2Urn|
-urn:cite2:hmt:astro.2017a:label:|Label|String|
-urn:cite2:hmt:astro.2017a:decription:|Description|String|
-urn:cite2:hmt:astro.2017a:status:|Status|String|proposed,approved,rejected
-urn:cite2:hmt:astro.2017a:redirect:|Redirect|Cite2Urn|
+urn:cite2:hmt:astro.2017a.urn:|URN|Cite2Urn|
+urn:cite2:hmt:astro.2017a.label:|Label|String|
+urn:cite2:hmt:astro.2017a.decription:|Description|String|
+urn:cite2:hmt:astro.2017a.status:|Status|String|proposed,approved,rejected
+urn:cite2:hmt:astro.2017a.redirect:|Redirect|Cite2Urn|
 // Texts cited in scholia
 urn:cite2:hmt:citedworks.2017a.urn:|URN|Cite2Urn|
 urn:cite2:hmt:citedworks.2017a.label:|Label|String|
