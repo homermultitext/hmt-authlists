@@ -17,7 +17,7 @@ urn:cite2:hmt:astro.v1.redirect:|Redirect|Cite2Urn|
 // Named entities: personal names
 urn:cite2:hmt:pers.v1.urn:|URN|Cite2Urn|
 urn:cite2:hmt:pers.v1.mf:|MF|String|m,f,TBD
-urn:cite2:hmt:pers.v1.character:|Character|String|divinity,literary,TBD
+urn:cite2:hmt:pers.v1.character:|Character|String|historical,divinity,literary,TBD
 urn:cite2:hmt:pers.v1.label:|Label|String|
 urn:cite2:hmt:pers.v1.description:|Description|String|
 urn:cite2:hmt:pers.v1.status:|Status|String|proposed,approved,rejected
