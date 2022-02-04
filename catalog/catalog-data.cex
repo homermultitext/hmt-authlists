@@ -17,6 +17,8 @@ urn:cite2:hmt:astro.2017a.redirect:|Redirect|Cite2Urn|
 
 // Named entities: personal names
 urn:cite2:hmt:pers.2017a.urn:|URN|Cite2Urn|
+urn:cite2:hmt:pers.2017a.mf:|MF|String|m,f,TBD
+urn:cite2:hmt:pers.2017a.label:|Character|String|divinity,literary,TBD
 urn:cite2:hmt:pers.2017a.label:|Label|String|
 urn:cite2:hmt:pers.2017a.decription:|Description|String|
 urn:cite2:hmt:pers.2017a.status:|Status|String|proposed,approved,rejected
@@ -25,6 +27,7 @@ urn:cite2:hmt:pers.2017a.status:|Status|String|proposed,approved,rejected
 urn:cite2:hmt:place.2017a.urn:|URN|Cite2Urn|
 urn:cite2:hmt:place.2017a.label:|Label|String|
 urn:cite2:hmt:place.2017a.decription:|Description|String|
+urn:cite2:hmt:place.2017a.status:|Pleiades|String|
 urn:cite2:hmt:place.2017a.status:|Status|String|proposed,approved,rejected
 
 
@@ -34,3 +37,5 @@ URN|Label|Type|Authority list
 urn:cite2:hmt:citedworks.2017a.urn:|URN|Cite2Urn|
 urn:cite2:hmt:citedworks.2017a.label:|Label|String|
 urn:cite2:hmt:citedworks.2017a.textUrn:|Text URN|CtsUrn|
+urn:cite2:hmt:citedworks.2017a.label:|Status|String|
+urn:cite2:hmt:astro.2017a.redirect:|Redirect|Cite2Urn|
